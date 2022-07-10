@@ -6,14 +6,8 @@
 //
 
 import UIKit
-import Foundation
 
 class ResultViewController: UIViewController {
-    
-    // 1. Передать массив с ответами на экран с результатами
-    // 2. Определить наиболее часто встречающийся тип животного
-    // 3. Отобразить результаты в соответствии с этим животным
-    // 4. Избавиться от кнопки возврата назад на экране результатов
     
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var descriptionResultLabel: UILabel!
